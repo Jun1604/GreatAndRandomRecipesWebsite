@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 750px;
+}
+
+.header {
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+  margin: 0px -10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.inner-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  opacity: 85%;
+  width: fit-content;
+  height: fit-content;
+}
+
+section {
+  padding: 20px;
+}
+
+li {
+  list-style: square;
+}
+
+ul {
+  padding-left: 40px;
+  margin-left: 40px;
+}
+
+.ingredients li {
+  margin-left: 20px;
+}
+
+.ingredients li p {
+  display: inline;
+}
+
+.instructions li {
+  margin-left: 20px;
+  list-style-type: decimal;
+}
+
+.servings {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.servings p {
+  padding-top: 10px;
+}
+
+.servings .select {
+  padding-left: 10px;
+}
