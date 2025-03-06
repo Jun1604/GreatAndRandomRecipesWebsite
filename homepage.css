@@ -8,7 +8,7 @@ html, body {
 }
 
 .header {
-  background-image: url(" https://food.unl.edu/newsletters/images/mise-en-plase.jpg");
+  background-image: url("food.jpg");
   background-position: center center;
   background-size: cover;
   min-height: 400px;
